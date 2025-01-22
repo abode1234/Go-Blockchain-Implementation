@@ -64,11 +64,17 @@ Returns complete blockchain
 [
   {
     "index": 0,
-    "timestamp": "2023-07-20T12:34:56Z",
-    "transactions": [...],
+    "timestamp": "2025-01-22T23:31:45+03:00",
+    "transactions": [
+      {
+        "Sender": "system",
+        "Recipient": "genesis",
+        "Amount": 0
+      }
+    ],
     "prev_hash": "0",
-    "hash": "0000a8c2...",
-    "nonce": 12345,
+    "hash": "006a321e846d2d78b795c4fa7b8d823bad9509e5e4c8c825a0dc32d3a3b9e241",
+    "nonce": 0,
     "miner_address": "system"
   }
 ]
@@ -84,11 +90,11 @@ Creates and mines new block
 ```json
 {
   "index": 1,
-  "timestamp": "2023-07-20T12:35:07Z",
-  "transactions": [],
-  "prev_hash": "0000a8c2...",
-  "hash": "0000e3b0...",
-  "nonce": 45678,
+  "timestamp": "2025-01-22T23:32:46+03:00",
+  "transactions": null,
+  "prev_hash": "006a321e846d2d78b795c4fa7b8d823bad9509e5e4c8c825a0dc32d3a3b9e241",
+  "hash": "0000d7a205c097aa024f2e4ace2657b79739d40b10b9a20efa44c102cb36ef24",
+  "nonce": 213146,
   "miner_address": "test_miner"
 }
 
