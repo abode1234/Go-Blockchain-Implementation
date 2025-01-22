@@ -1,0 +1,6 @@
+{
+	"difficulty": 4,
+	"block_reward": 10,
+	"genesis_data": "Genesis Block",
+	"port": ":8080"
+}
